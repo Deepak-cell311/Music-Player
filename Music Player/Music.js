@@ -52,7 +52,7 @@ const play = document.getElementById("play");
                play.classList.replace('fa-pause', 'fa-play');
                image.classList.remove("anime")
           };
-
+          
           play.addEventListener('click', () => {
                if (isplaying) {
                     pauseMusic();
